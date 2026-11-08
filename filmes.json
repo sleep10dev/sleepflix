@@ -1,0 +1,148 @@
+{
+  "categorias": [
+    {
+      "nome": "🔥 Em Alta no Sleepflix",
+      "filmes": [
+        {
+          "id": 1,
+          "titulo": "Big Buck Bunny",
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg",
+          "descricao": "Um coelho gigante e fofo com uma atitude maliciosa se vinga de criaturas da floresta.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        },
+        {
+          "id": 2,
+          "titulo": "Sintel (Fantasia Épica)",
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sintel_poster.jpg",
+          "descricao": "Uma jovem solitária faz amizade com um pequeno dragão, iniciando uma jornada perigosa para salvá-lo.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        },
+        {
+          "id": 3,
+          "titulo": "Tears of Steel (Sci-Fi)",
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Tears_of_steel_poster.jpg",
+          "descricao": "Em Amsterdã futurista, um grupo de guerreiros e cientistas luta pela sobrevivência da humanidade contra robôs.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        },
+        {
+          "id": 4,
+          "titulo": "Elephant Dream",
+          "capa": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Elephant_Dream_poster.jpg",
+          "descricao": "Dois exploradores navegam por uma estrutura mecânica bizarra e infinita que desafia as leis da física.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        }
+      ]
+    },
+    {
+      "nome": "📺 Séries de Sucesso e Cult",
+      "filmes": [
+        {
+          "id": 5,
+          "titulo": "For Bigger Blazes (Temporada 1)",
+          "capa": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500",
+          "descricao": "Os bastidores de demonstrações visuais e testes tecnológicos extremos em alta definição.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+        },
+        {
+          "id": 6,
+          "titulo": "The Bullrun Chronicles (Minissérie)",
+          "capa": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500",
+          "descricao": "Acompanhe equipes cruzando o país em veículos tunados em busca da glória máxima.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
+        },
+        {
+          "id": 7,
+          "titulo": "What Car Can You Get? (Série Tech)",
+          "capa": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=500",
+          "descricao": "Descubra opções incríveis de veículos avaliando custo, benefício e desempenho.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4"
+        },
+        {
+          "id": 8,
+          "titulo": "Cyber City 2099 (Série Original)",
+          "capa": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=500",
+          "descricao": "Investigações cibernéticas nos becos escuros de uma megametrópole futurista.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        }
+      ]
+    },
+    {
+      "nome": "🎨 Desenhos e Animações",
+      "filmes": [
+        {
+          "id": 9,
+          "titulo": "Caminandes: Llama Drama",
+          "capa": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500",
+          "descricao": "As desventuras hilárias de Koro, a lhama patagônica, tentando atravessar a estrada.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        },
+        {
+          "id": 10,
+          "titulo": "For Bigger Fun (Especial Infantil)",
+          "capa": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=500",
+          "descricao": "Momentos divertidos e dinâmicos para assistir com a família inteira antes de dormir.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+        },
+        {
+          "id": 11,
+          "titulo": "O Reino das Nuvens (Animação)",
+          "capa": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=500",
+          "descricao": "Uma jornada mágica por ilhas flutuantes habitadas por criaturas celestiais.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        }
+      ]
+    },
+    {
+      "nome": "💖 Novelas e Dramas Emocionantes",
+      "filmes": [
+        {
+          "id": 12,
+          "titulo": "Laços de Passione (Novela)",
+          "capa": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=500",
+          "descricao": "Segredos de família, romances proibidos e reviravoltas chocantes no horário nobre.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+        },
+        {
+          "id": 13,
+          "titulo": "Crônicas da Noite (Drama Urbano)",
+          "capa": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=500",
+          "descricao": "Vidas que se cruzam sob as luzes de neon de uma metrópole que nunca dorme.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyRides.mp4"
+        },
+        {
+          "id": 14,
+          "titulo": "Além do Horizonte (Minissérie Dramática)",
+          "capa": "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?w=500",
+          "descricao": "Uma busca incessante pela verdade após um desaparecimento misterioso.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+        }
+      ]
+    },
+    {
+      "nome": "🌙 Filmes Alternativos e Desconhecidos (Indie)",
+      "filmes": [
+        {
+          "id": 15,
+          "titulo": "Subaru Outback Journey (Calm)",
+          "capa": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500",
+          "descricao": "Paisagens calmas e estradas cênicas para relaxar a mente e pegar no sono.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackSeeTheWorld.mp4"
+        },
+        {
+          "id": 16,
+          "titulo": "O Sussurro do Vento (Curta Indie)",
+          "capa": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=500",
+          "descricao": "Uma obra contemplativa e intimista sobre a calmaria da natureza ao anoitecer.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
+        },
+        {
+          "id": 17,
+          "titulo": "Echoes of Silence (Experimental)",
+          "capa": "https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?w=500",
+          "descricao": "Um filme conceitual focado em texturas visuais e sonoridade ambiente.",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+        }
+      ]
+    }
+  ]
+}
