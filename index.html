@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleepflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar__left">
+            <h1 class="logo">SLEEPFLIX</h1>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Bombando</a>
+            </nav>
+        </div>
+        <div class="navbar__right">
+            <input type="text" id="search" placeholder="Títulos e gêneros">
+            <div class="profile-icon"></div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero" id="hero">
+        <div class="hero__contents">
+            <h1 class="hero__title" id="hero-title">Carregando...</h1>
+            <p class="hero__description" id="hero-desc">...</p>
+            <div class="hero__buttons">
+                <button class="hero__button" id="hero-play">▶ Assistir</button>
+                <button class="hero__button">ℹ Mais informações</button>
+            </div>
+        </div>
+        <div class="hero--fadeBottom"></div>
+    </section>
+
+    <!-- Content Rows -->
+    <main class="main-container" id="rows-container">
+    </main>
+
+    <!-- Video Modal / Player -->
+    <div class="modal" id="video-modal">
+        <div class="modal__content">
+            <span class="modal__close" id="modal-close">&times;</span>
+            <video id="modal-video" controls width="100%">
+                Seu navegador não suporta vídeo.
+            </video>
+            <h2 id="modal-title">Título</h2>
+            <p id="modal-desc">Descrição</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

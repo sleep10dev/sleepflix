@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 10%, transparent);
+    z-index: 100;
+    transition: background-color 0.3s;
+}
+
+.navbar__left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    color: #E50914;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav a {
+    color: #e5e5e5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar nav a:hover {
+    color: #b3b3b3;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#search {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+    padding: 6px 12px;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #E50914;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hero Banner */
+.hero {
+    height: 480px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.hero__contents {
+    max-width: 600px;
+    z-index: 1;
+}
+
+.hero__title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hero__description {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    max-width: 450px;
+    margin-bottom: 1.5rem;
+}
+
+.hero__buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero__button {
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero__button:first-child {
+    background-color: #fff;
+    color: #000;
+}
+
+.hero__button:first-child:hover {
+    background-color: rgba(255,255,255,0.75);
+}
+
+.hero__button:last-child {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: #fff;
+}
+
+.hero--fadeBottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61), #141414);
+}
+
+/* Rows */
+.main-container {
+    padding: 20px 40px;
+    margin-top: -100px;
+    position: relative;
+    z-index: 10;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+.row__title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #e5e5e5;
+    margin-bottom: 15px;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    gap: 10px;
+    padding: 10px 0;
+    scrollbar-width: none;
+}
+
+.row__posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row__poster {
+    width: 220px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 300ms;
+}
+
+.row__poster:hover {
+    transform: scale(1.08);
+}
+
+/* Modal Player */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__content {
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    color: #fff;
+}
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.modal__content video {
+    margin-top: 15px;
+    border-radius: 4px;
+    background: #000;
+}
+
+.modal__content h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.modal__content p {
+    margin-top: 8px;
+    color: #aaa;
+    font-size: 1rem;
+}
